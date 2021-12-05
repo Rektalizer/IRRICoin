@@ -1,0 +1,22 @@
+<nav class="navbar navbar-dark bg-dark IRRIBar">
+  <a class = "navbar-brand fl-ls-4 ml-20" [routerLink]="['/']">
+    <img src="./assets/images/IRRICoin.svg" alt='' class="IRRICoin-image">
+    IRRICoin
+  </a>
+  <a href="https://github.com/Savjee/savjeecoin-frontend">
+    <small style="color: white; text-decoration: none">(Based on SavjeeCoin tutorial)</small>
+  </a>
+
+  <div>
+    <button class="btn btn-outline-light mr-12" [routerLink]="['/settings']">Settings</button>
+    &nbsp;
+    <button class="btn btn-outline-light mr-12" [routerLink]="['/new/transaction']">Create transaction</button>
+    &nbsp;
+    <button class="btn btn-outline-light mr-12" [routerLink]="['/new/transaction/pending']">Pending transactions</button>
+  </div>
+</nav>
+
+<router-outlet>
+
+</router-outlet>
+
