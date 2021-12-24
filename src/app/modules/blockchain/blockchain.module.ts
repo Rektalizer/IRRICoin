@@ -9,6 +9,7 @@ import { TransactionsTableComponent } from './components/transactions-table/tran
 import { PendingTransactionsComponent } from './containers/pending-transactions/pending-transactions.component';
 import { SettingsComponent } from './containers/settings/settings.component';
 import { WalletBalanceComponent } from './containers/wallet-balance/wallet-balance.component';
+import { BitcoinGeneratorComponent } from './containers/bitcoin-generator/bitcoin-generator.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { WalletBalanceComponent } from './containers/wallet-balance/wallet-balan
     CreateTransactionComponent,
     PendingTransactionsComponent,
     SettingsComponent,
-    WalletBalanceComponent
+    WalletBalanceComponent,
+    BitcoinGeneratorComponent
   ],
   exports: [
     BlockchainComponent

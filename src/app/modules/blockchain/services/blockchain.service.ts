@@ -1,7 +1,10 @@
 import {Injectable} from '@angular/core';
 import {Blockchain} from '../lib/blockchain-class/blockchain';
 import {IWalletKey} from "../models/wallet-key.interface";
-import * as EC from 'elliptic'
+import * as EC from 'elliptic';
+// import {sha256} from 'js-sha256';
+// let RIPEMD160 = require('ripemd160');
+// let base58 = require('bs58');
 
 
 @Injectable({

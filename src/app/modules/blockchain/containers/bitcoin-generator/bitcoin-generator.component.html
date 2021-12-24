@@ -1,0 +1,20 @@
+<div class="container mt-4">
+  <h1>Create Bitcoin wallet</h1>
+  <p>Here you can generate and see your BTC keys</p>
+
+  <p style="font-weight: bold">Your public key: </p>
+  <p>{{BTCpublicKey}}</p>
+  <p style="font-weight: bold">Your private key: </p>
+  <p>{{BTCprivateKey}}</p>
+<!--  <p>Your hash(Public key hash): </p>-->
+<!--  <p>{{publicHash}}</p>-->
+  <p style="font-weight: bold">Your address: </p>
+  <p>{{address}}</p>
+  <p style="font-weight: bold">Your WIF: </p>
+  <p>{{WIF}}</p>
+<!--  <p>Your public nugget: {{publicNugget}}</p>-->
+<!--  <p>Your private nugget: {{privateNugget}}</p>-->
+
+  <button (click)="createBTCWallet()" type="submit" class="btn btn-primary">Generate BTC wallet</button>
+
+</div>
